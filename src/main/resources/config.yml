@@ -1,0 +1,7 @@
+prefix: §c§l[AC]
+testMode: false
+autoPunish: true
+allowAutoKick: false
+allowAutoBan: false
+broadcastPunishMode: 1
+broadcastPermission: null

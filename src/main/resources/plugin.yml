@@ -1,0 +1,10 @@
+name: LAC
+version: b0001_BETA
+main: com.xiii.libertycity.lac.LAC
+authors: [ XIII___ ]
+description: LibertyCity's AntiCheat
+commands:
+  lac:
+    usage: /lac
+    permission: LibertyCity.LAC.command.main
+    permission-message: §c§l[AC] Permission insuffisante.

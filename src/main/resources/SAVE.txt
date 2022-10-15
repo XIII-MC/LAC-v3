@@ -1,0 +1,27 @@
+
+#Prefix utilisé dans le message d'alerte et de sanction (s'applique UNIQUEMENT a LAC)
+prefix: §c§l[AC]
+
+# Mode de test utiliser pour le serveur de test
+testMode: false
+
+# --- --- --- SANCTIONS --- --- --- #
+
+  # Autoriser les sanctions automatique ? (true/false)
+    allowPunish: false
+
+  # Autoriser les sanctions de kicks automatique ? (true/false) (SEUELEMNT SI allowPunish EST true)
+    allowAutoKick: false
+
+  # Autoriser les sanctions de ban automatique ? (true/false) (SEUELEMNT SI allowPunish EST true)
+    allowAutoBan: false
+
+  # Mode de message automatiquement envoyé au joueurs quand un joueur est sanctioner automatiquement par LAC
+
+    # - Mode '0': Désactive cette fonctionalitée, aucun message n'est envoyer.
+    # - Mode '1': Envois un message a tous les joueurs.
+    # - Mode '2': Envois un message au joueurs qui ont une certaine permission
+    broadcastPunishMode: 1
+
+    # Permission requise pour recevoir les messages de sanction automatique par LAC (Marche seulement si broadcastPunish est sur '2')
+    broadcastPermission: null
